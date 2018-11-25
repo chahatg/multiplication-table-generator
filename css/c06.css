@@ -1,0 +1,95 @@
+#img1 {
+	max-width:100px;
+	float: left;
+	margin: 0px 0px 15px 15px;
+}
+
+#img2 {
+	max-width:100px;
+	float: right;
+	/*margin: 0px 0px 15px 15px;*/
+}
+
+body{
+	background-color: #99ffcc;
+	text-align: center;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+form{
+	font-color: blue;
+	border-style: double;
+	border-width: 3px;
+	margin: 10px;
+	padding:15px 0px 15px 0px;
+}
+
+
+#form{
+	color: ;
+	margin:15px;
+	padding: 15px 15px 30px 15px;
+	text-align: center;
+	font-weight: 600;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+	border-style: dashed;
+	border-width: 3px;
+	color: black;
+	width: auto;
+}
+
+/*tr:nth-child(odd) td:nth-child(even)
+{
+    background-color: grey;
+}*/
+
+tbody > tr > td:first-child {
+  background-color: black;
+  color: white;
+}
+
+tbody > tr:first-child > td {
+  background-color: black;
+  color: white;
+}
+
+tbody > tr:first-child > td:first-child {
+  background-color: #ffffff;
+  border-left: none;
+  color: white;
+  opacity: 0;
+}
+
+tbody > tr > td {
+  color: black;
+  background-color: white;
+  height: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+}
+
+#Error {
+  color: red;
+  font-size: 80%;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.error {
+color: red;
+font-size: 80%;
+font-style: italic;
+font-weight: 700;
+text-align: center;
+}
+
+input.error {
+	display: inline;
+  border: 5px solid red;
+}
